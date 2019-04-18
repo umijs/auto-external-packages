@@ -1,1 +1,1 @@
-# auto-external-package
+# auto-external-packages
