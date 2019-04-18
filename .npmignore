@@ -1,0 +1,8 @@
+/src
+/test
+/node_modules
+tsconfig.json
+tslint.json
+.editorconfig
+.gitlab-ci.yml
+History.md
