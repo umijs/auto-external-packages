@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "tslint:latest"
+  ],
+  "rules": {
+    "no-empty": false,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-single"
+    ],
+    "ordered-imports": false,
+    "member-access": false,
+    "no-submodule-imports": false,
+    "jsx-curly-spacing": [
+      "always"
+    ],
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "no-implicit-dependencies": false,
+    "no-empty-interface": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ]
+  }
+}
