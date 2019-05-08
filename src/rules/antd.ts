@@ -35,10 +35,10 @@ const rules: IConfigItem = {
     }
 
     // 使用了 babel-plugin-import
-    const [libraryNmae, , component] = antdRequest.split('/');
+    const [libraryName, , component] = antdRequest.split('/');
     return callback(
       null,
-      [libraryNmae, upcaseAntdComponent(component)],
+      [libraryName, upcaseAntdComponent(component)],
       'window',
     );
   },

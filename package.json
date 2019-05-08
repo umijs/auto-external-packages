@@ -20,8 +20,10 @@
   "keywords": [
     "client"
   ],
-  "author": "ikobe",
-  "license": "ISC",
+  "authors": [
+    "ikobe <ikobe621@gmail.com> (https://github.com/ikobe)"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^10.12.1",
     "@types/uuid": "^3.4.4",
