@@ -21,7 +21,7 @@ const rules: IConfigItem = {
   dependencies: ['react', 'react-dom', 'moment'],
   global: (_, request, callback) => {
     if (
-      !/antd/.test(request) ||
+      !/(^|\/)antd($|\/)/.test(request) ||
       /style/.test(request) ||
       /locale-provider\/.*/.test(request)
     ) {
